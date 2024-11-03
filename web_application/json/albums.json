@@ -1,0 +1,45 @@
+[
+    {
+        "Album":"The Miseducation of Ms.Lauryn Hill",
+        "Artist":"Lauryn Hill" ,
+        "Genre" : "Neo soul/R&b",
+        "Total number of songs" :"16",
+        "TotalTimeOfalbum" : "77:39",
+        "ReleaseYear": "1998",
+        "Producer": "Lauryn Hill",
+        "PersonalRecScore": "9",
+        "PersonalCritique": "Lauryn delivers a love letter to God through her powerful lyricisms. A unique album that transcends the test of time.",
+        "ID": "77LA",
+        "Cover": "./albums cover/Miseducation.jpg"
+
+    },
+    {
+        "Album":"CTRL",
+        "Artist":"SZA" ,
+        "Genre" :"r&b" ,
+        "TotalNumberOfSongs" :"14",
+        "TotalTimeOfalbum" :"49:01" ,
+        "ReleaseYear":"2017" ,
+        "Producer": "The Antydote Bekon Craig Balmoris",
+        "PersonalRecScore":"8" ,
+        "PersonalCritique" : "SZA lays herself bare and reclaims control through her delicate, yet powerful vocals. A timless album.",
+        "ID": "49SZ",
+        "Cover": "./albums cover/ctrl.jfif"
+
+    },
+    {
+        "Album":"Freudian",
+        "Artist": "Daniel Ceaser",
+         "Genre" : "r&b/gospel",
+         "TotalNumberOfSongs" :"10",
+         "TotalTimeOfalbum" :"44:47" ,
+         "ReleaseYear":"2017" ,
+         "Producer": "Jordan Evans",
+         "PersonalRecScore":"10" ,
+         "PersonalCritique" : "For the real music lovers, for those that love profoundly and crave to be understood. Daniel references the neurologist Freud, comparing his love for his woman to the love a child has for his mother. ",
+         "ID": "44DA",
+         "Cover": "./albums cover/danCeaser.jfif"
+    
+    }
+
+]

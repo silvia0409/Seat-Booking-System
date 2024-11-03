@@ -1,0 +1,498 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fbf1f1;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #1c0404;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+  
+}
+/*Customising page description*/
+.description h4
+{
+  color: #252925;
+  font-style: italic;
+  background-color: #fff2f2;
+  text-align: center;
+  padding: 0px 15px 0px;
+
+}
+.album
+{
+  padding:5px 10px 10px 9px;
+  background-color: #fae2e2;
+  margin-left: -17px;
+
+}
+
+/*customising album title and summary*/
+.album h1
+{
+	text-transform: uppercase;
+	font-size: 25px;
+	color: #4a2b11;
+  font-weight: 700;
+  margin-right:25px ;
+}
+.album h4
+{ 
+  text-transform: uppercase;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: #1f1a1a;
+}
+/*customising outer link buttons for albums*/
+.album button{
+  background-color: #f7d5f0c5;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #100101;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.album button:hover
+{
+  background-color: #ffc7e1;
+}
+
+/*customising navigation bar */
+.container nav li{
+padding: 7px 7px;
+}
+.container nav ul li a
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform:uppercase ;
+  background-color: #bb8784;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fcfcfc;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+}
+
+
+/* Customize container */
+@media (min-width: 800px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #f6bdbd;
+  background-image: url('../img/master/header.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  
+}
+/*editing title of the home page*/
+.header h3 
+{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,monospace;
+  color:#c79494f2 ;
+  font-size: 35px;
+  
+
+}
+/*editing jumbotron*/
+.jumbotron h3
+{ 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,monospace;
+  color:#ffd2d0c8 ;
+  float:right;
+  font-weight: 400;
+  font-size:27px;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.carousel-caption h1
+{
+	color: #fff;
+}
+
+.lead
+{
+   background: #000;
+   color: #fff;
+}
+
+/* Supporting content */
+.details {
+  margin: 40px 0;
+}
+.details p + h4 {
+  margin-top: 28px;
+}
+.input-group
+{
+  background-color: #1c0404;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .details,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+/*Ranking page css*/
+
+/*table heading */
+.ranking h4
+{
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #250b06a6;
+}
+/*Customise table*/
+.ranking table
+{   table-layout:fixed;
+    width:100%;
+    display:inline;
+    border: 30px rgb(19, 105, 37);
+    text-align: center;
+    margin-left:  65px;
+  
+  }
+td, th {
+    border: 5px solid #e42020;
+    
+  
+}
+    
+th{
+    background-color:#d59c9ca4;
+    padding:25px;
+    border: 2px #7b155e;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+tr
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+.ranking button
+{
+  background-color: #d59c9c43;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #100101;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+}
+.ranking button:hover
+{
+  background-color: #9634439b;
+
+}
+/* styling user registration page form*/
+.wrapper
+{
+  position:relative;
+  width: 400px;
+  height: 485px;
+  margin-left: 350px; 
+  background-color:#fefefe7a;
+  border: 2px solid rgb(250, 250, 250);
+  border-radius:20px;
+  backdrop-filter:blur(20px);
+  box-shadow: 0 0 34px rgb(206, 151, 151);
+  justify-content: center;
+  align-items: center;
+
+
+  
+
+}
+.wrapper  h2{
+  text-align: center;
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #c98282f2;
+}
+ .input-box{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#c38484f2 ;
+  
+  
+}
+
+.input-box input{
+  width:50%;
+  height:20pxpx;
+  color: #000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* styling login page form*/
+
+.LoginWrapper{
+  text-align: center;
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #c98282f2;
+
+
+}
+
+.input-box button{
+  background-color: #fee3e3c5;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #e09a9a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 14px;
+  font-weight: 250;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+/* styling profile page form*/
+.Profilewrapper  h2,h3 {
+  text-align: center;
+  font-size: 22px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #b47b7bf2;
+}
+.Profilewrapper
+{
+  position:relative;
+  width: 600px;
+  height: 510px;
+  margin-left: 270px; 
+  background-color:#fefefe7a;
+  border: 2px solid rgb(250, 250, 250);
+  border-radius:20px;
+  backdrop-filter:blur(20px);
+  box-shadow: 0 0 34px rgb(206, 151, 151);
+  justify-content: center;
+  align-items: center;
+  
+}
+.Profilewrapper:hover{
+  background-color: #ffffffde;
+}
+
+.Selection {
+  text-align: center;
+  font-size: 15px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #363333f2;
+  
+}
+.Image {
+  float: left;
+  width: 30%; 
+  margin-right: 2%;
+  display: inline;
+
+}
+/* styling review page form*/
+.reviewWrapper {
+position:relative;
+width: 410px;
+height: 450px;
+margin-left: 700px; 
+margin-top: -760px;
+background-color:#fefefe7a;
+border: 2px solid rgb(250, 250, 250);
+border-radius:20px;
+backdrop-filter:blur(20px);
+
+justify-content: center;
+align-items: center;
+position:absolute
+}
+.reviewWrapper:hover {
+  background-color: #fcdde19b;
+}
+
+.reviewWrapper h2
+{
+  text-align: center;
+  font-size: 22px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #320808f2;
+
+}
+
+.UserReviews {
+  background-color: #f6dcdfcf;
+  margin-top:20px ;
+  margin-bottom:20px;
+  align-content: center;
+  align-self: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: uppercase ;
+  width: 460px;
+  text-align: center;
+  
+  
+}
+/*User profile style*/
+
+.profile {
+  background-color: #fff8f9cf;
+  margin-top:40px ;
+  margin-bottom:70px;
+  margin-left: 340px;
+  align-content: center;
+  align-self: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: capitalize ;
+  width: 460px;
+  text-align: center;
+  
+
+}
+
+.profile h1,h4
+{
+  color: #a67b74;
+}
+
+.ProfileReview
+{
+  background-color: rgb(252, 247, 247);
+  margin-top:80px ;
+  margin-bottom:50px;
+  margin-left: 340px;
+  align-content: center;
+  align-self: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase ;
+  width: 460px;
+  text-align: center;
+  
+}
+
+/* Hover state */
+.Selection button:hover {
+  background-color: #c7c0c2bb; /* Change color once hovered */
+}
+
+/* Active state (clicked) */
+.Selection button:active {
+  color: #821212fe; /* Change color when clicked */
+}
+
+/* Visited state */
+.Selection button:visited {
+  color: #c71515fe; /* Change color after it has been visited */
+}
+
